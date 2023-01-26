@@ -2,8 +2,8 @@ import requests
 import smtplib
 
 
-MY_EMAIL = "r.4z0r3583@gmail.com"
-MY_PASS = "whelbkqtsjqxejzu"
+MY_EMAIL = "mail"
+MY_PASS = "pass"
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
