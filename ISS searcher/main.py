@@ -3,8 +3,8 @@ from datetime import datetime
 import smtplib
 import time
 
-MY_EMAIL = "r.4z0r3583@gmail.com"
-MY_PASS = "whelbkqtsjqxejzu"
+MY_EMAIL = "email"
+MY_PASS = "pass"
 MY_LAT = 38.075974
 MY_LNG = 23.745718
 
