@@ -49,8 +49,3 @@ for exercise in result["exercises"]:
 
 sheet_response = requests.post(sheet_endpoint, json=sheet_inputs)
 
-#
-# post_endpoint = "https://api.sheety.co/phill/myWebsite/emails"
-# response_post = requests.post(post_endpoint, json=new_records, headers=headers)
-# result2 = response_post.json()
-# print(result2)
