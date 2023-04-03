@@ -66,7 +66,3 @@ if dif_percent > 0.03:
                 to_addrs=MY_EMAIL,
                 msg=article
             )
-
-
-
-
