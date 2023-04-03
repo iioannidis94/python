@@ -1,4 +1,4 @@
-##################### Extra Hard Starting Project ######################
+
 import pandas as pd
 import smtplib
 import datetime as dt
