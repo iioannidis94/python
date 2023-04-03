@@ -12,8 +12,7 @@ user_params = {
     "agreeTermsOfService": "yes",
     "notMinor": "yes",
 }
-# response = requests.post(url=pixela_endpoint, json=user_params)
-# print(response.text)
+
 
 graph_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs"
 
@@ -28,7 +27,6 @@ graph_config = {
 headers = {
     "X-USER-TOKEN": TOKEN
 }
-# requests.post(url=graph_endpoint, json=graph_config, headers=headers)
 
 # create now date
 now = datetime.now()
@@ -49,10 +47,10 @@ update_pixel_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH}/{date_stri
 quant = {
     "quantity": "7"
 }
-# response = requests.put(url=update_pixel_endpoint, json=quant, headers=headers)
+
 
 delete_pixel = update_pixel_endpoint
 
-#response = requests.delete(url=delete_pixel, headers=headers)
+
 
 print(response.text)
