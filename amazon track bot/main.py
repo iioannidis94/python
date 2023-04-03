@@ -4,8 +4,8 @@ import requests as rq
 
 BUY_PRICE = 100
 
-my_email = "r.4z0r3583@gmail.com"
-my_password = "whelbkqtsjqxejzu"
+my_email = "email"
+my_password = "pass"
 
 URL = "https://www.amazon.com/dp/B09TYVYRD9/ref=sbl_dpx_kitchen-electric-cookware_B08GC6PL3D_0"
 
